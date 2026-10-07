@@ -1,5 +1,8 @@
 # Credentials
 .env
+.env.*
+!.env.example
+.2fa_device
 
 # Python
 __pycache__/
@@ -10,6 +13,7 @@ __pycache__/
 env/
 venv/
 ENV/
+.venv/
 
 # IDE
 .vscode/
@@ -19,6 +23,10 @@ ENV/
 
 # Course data
 *_Courses.json
+monhoc_current.json
 
 # Logs
 *.log
+
+# macOS
+.DS_Store
